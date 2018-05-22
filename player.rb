@@ -27,4 +27,5 @@ class Player
       false
     end
   end
+
 end
