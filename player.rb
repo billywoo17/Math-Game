@@ -16,12 +16,12 @@ class Player
     @playerTwoLife -= 1
   end
 
-  def player_One_Turn
+  def player_one_turn
     @playerOneTurn = !@playerOneTurn
   end
 
-  def check_Player_Life
-    if((@playerOneLife || @playerTwoLife)  > 0)
+  def check_player_life
+    if(@playerOneLife  > 0 && @playerTwoLife > 0)
       true
     else
       false

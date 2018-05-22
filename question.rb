@@ -5,7 +5,7 @@ class Question
     @answer = @first_num + @second_num
 end
 
-  def askQuestion
+  def ask_question
     puts "What is #{@first_num} + #{@second_num}?"
   end
 
