@@ -1,6 +1,4 @@
 class Question
-  attr_reader(:answer)
-
   def initialize
     @first_num = rand(1..20)
     @second_num = rand(1..20)
@@ -8,7 +6,7 @@ class Question
 end
 
   def askQuestion
-    "What is #{@first_num} + #{@second_num}?"
+    puts "What is #{@first_num} + #{@second_num}?"
   end
 
   def is_correct?(user_input)
