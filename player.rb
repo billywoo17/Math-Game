@@ -9,14 +9,14 @@ class Player
   end
 
   def playerOne_lose_life
-    @playerOneLife -= 1    
+    @playerOneLife -= 1
   end
 
   def playerTwoLife_lose_life
     @playerTwoLife -= 1
   end
 
-  def oneplayeTurn
+  def player_One_Turn
     @playerOneTurn = !@playerOneTurn
   end
 
